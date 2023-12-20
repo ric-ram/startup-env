@@ -1,8 +1,9 @@
-from control import Control
+from control import App
 
 
 def main():
-    control = Control()
+    app = App("firefox", "C://path/to/firefox")
+    print(app)
 
 
 main()
